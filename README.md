@@ -1,6 +1,7 @@
 # vs code extension name and video
 ## html
 - highlight matching tag
+- https://youtu.be/lTxZYSq8Uco?si=n3S-vcFZo_GdG5l5
 ## css
 ## javaScript
 
