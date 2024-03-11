@@ -1,6 +1,14 @@
 # vs code extension name and video
+## themes
+- AMOLED black theme
+- indent-rainbow-blocks
+- indent rainbow
+- Background
+- Break Reminder
 ## html
 - highlight matching tag
+- Auto Close Tag
+- Auto Close Tag
 - https://youtu.be/lTxZYSq8Uco?si=n3S-vcFZo_GdG5l5
 ## css
 ## javaScript
