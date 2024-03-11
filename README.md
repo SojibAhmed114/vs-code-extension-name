@@ -1,5 +1,6 @@
 # vs code extension name and video
 ## html
+- highlight matching tag
 ## css
 ## javaScript
 
