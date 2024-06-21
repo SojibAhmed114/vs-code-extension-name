@@ -12,10 +12,10 @@
 ## html
 - highlight matching tag
 - Auto Close Tag
-- Auto Close Tag
 - https://youtu.be/lTxZYSq8Uco?si=n3S-vcFZo_GdG5l5
 ## css
 ## javaScript
+- Error lens
 ## console log vs code user snippets
 > Open vs code editor
 >> 1. Click File Menu
