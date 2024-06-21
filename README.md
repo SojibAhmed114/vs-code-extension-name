@@ -16,6 +16,8 @@
 ## css
 ## javaScript
 - Error lens
+## Other
+- Better comments
 ## console log vs code user snippets
 > Open vs code editor
 >> 1. Click File Menu
