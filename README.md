@@ -40,8 +40,7 @@
 {
   "editor.minimap.autohide": true,
   "editor.minimap.maxColumn": 70,
-  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
-  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "workbench.iconTheme": "a-file-icon-vscode",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -54,7 +53,7 @@
   "terminal.integrated.env.windows": {},
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "liveServer.settings.CustomBrowser": "chrome",
@@ -67,21 +66,67 @@
 
   "workbench.colorCustomizations": {
     "activityBar.background": "#000000",
-    "activityBar.border": "#00bd00",
-    "activityBar.activeBorder": "#00bd00",
-    "panel.border": "#00bd00",
-    "sideBar.border": "#00bd00",
+    "activityBar.border": "#009700",
+    "activityBar.activeBorder": "#009700",
+    "sideBar.background": "#0d121c",
+    "sideBar.border": "#009700",
     "sideBarTitle.foreground": "#ff9acf",
     "sideBarTitle.background": "#010",
-    "sideBarActivityBarTop.border": "#00bd00",
-    "sideBarSectionHeader.border": "#00bd00",
-    "titleBar.border": "#00bd00",
-    "terminal.border": "#00bd00",
-    "tab.activeBorderTop": "#858086",
-    "tab.border": "#00bd00",
-    "tab.activeBackground": "#8e009b75",
+    "sideBarActivityBarTop.border": "#009700",
+    "sideBarSectionHeader.border": "#009700",
+    "editor.background": "#0D121C",
+    "contrastBorder": "#009700",
+    "dropdown.border": "#009700",
+    "focusBorder": "#009700",
+    "input.border": "#009700",
+    "inputOption.activeBorder": "#009700",
+    "inputValidation.errorBorder": "#009700",
+    "inputValidation.infoBorder": "#009700",
+    "inputValidation.warningBorder": "#009700",
+    "list.inactiveSelectionBackground": "#00000030",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "menu.background": "#0D121C",
+    "menu.border": "#009700",
+    "menu.selectionBackground": "#000000",
+    "menu.selectionBorder": "#009700",
+    "menubar.selectionBorder": "#009700",
+    "minimap.background": "#440030",
+    "minimapSlider.background": "#0d121cab",
+    "notifications.background": "#000068",
+    "notifications.foreground": "#ffffff",
+    "panel.background": "#0d121c",
+    "panel.border": "#009700",
+    "panelTitle.activeBorder": "#009700",
+    "panelTitle.activeForeground": "#fff",
+    "progressBar.background": "#0d121c",
+    "scrollbarSlider.activeBackground": "#006d5d",
+    "scrollbarSlider.background": "#008772",
+    "settings.checkboxForeground": "#ff4a4a",
+    "statusBar.background": "#0D121C",
+    "statusBar.border": "#009700",
+    "tab.border": "#009700",
+    "tab.activeBackground": "#006d5d",
+    "tab.activeBorder": "#009700",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#0d121c",
+    "terminal.background": "#0d121c",
+    "terminal.border": "#009700",
+    "titleBar.activeBackground": "#0d121c",
+    "titleBar.border": "#009700",
+    "textLink.activeForeground": "#009700",
+    "editorGroupHeader.tabsBorder": "#009700",
+    "editorGroupHeader.tabsBackground": "#0d121c"
+
   },
+  "workbench.colorTheme": "Learn with Sumit - Vintage",
+  "liveServer.settings.donotShowInfoMsg": true
 }
+
+
+
+
+
+
 ---
 
 
