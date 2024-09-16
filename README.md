@@ -6,7 +6,7 @@
 - Background
 - Break Reminder
 ## My best themes name
-- leran with sumit Peach of the eye
+- Learn with Sumit - Vintage
 ## My favourite vs code font name
 - jetbrains mono font
 ## html
