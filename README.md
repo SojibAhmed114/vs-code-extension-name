@@ -18,6 +18,11 @@
 - Error lens
 ## Other
 - Better comments
+## Powershell terminal oh my posh best themes name
+- quick-term
+- unicorn
+- velvet
+- gmay
 ## console log vs code user snippets
 > Open vs code editor
 >> 1. Click File Menu
