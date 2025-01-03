@@ -30,9 +30,9 @@
 >> 3. Configure user snippets
 >> 4. Then search Javascript.json
 >> 5. copy and paste the code
->> 6. {
-	
-
+>> 6.
+ ``` snippets
+{
 	"Print to console": {
 		"prefix": "safi",
 		"body": [
@@ -83,8 +83,10 @@
 	},
 
 }
+```
 
 ## vs code default and custome setting.json
+``` json
 {
     "workbench.iconTheme": "material-icon-theme",
     "editor.bracketPairColorization.enabled": true,
@@ -153,6 +155,7 @@
 
 
 }
+```
 
 ---
 
