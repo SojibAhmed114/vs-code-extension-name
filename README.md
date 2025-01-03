@@ -31,102 +31,128 @@
 >> 4. Then search Javascript.json
 >> 5. copy and paste the code
 >> 6. {
+	
+
 	"Print to console": {
-		"prefix": "log",
+		"prefix": "safi",
 		"body": [
-			"console.log($1);",
-			"$2"
+			"console.log($1);"
 		],
-		"description": "any text"
-	}
+		"description": "console vai come here"
+	},
+	// const variable
+	"const print": {
+		"prefix": "cosnt",
+		"body": [
+			"const $1 = $2;",
+		],
+		"description": "const variable"
+	},
+	// const variable
+	"const variable": {
+		"prefix": "const",
+		"body": [
+			"const $1 = $2;",
+		],
+		"description": "const variable"
+	},
+	// create object
+	"object": {
+		"prefix": "obj",
+		"body": [
+			"const $1 ={ $2};",
+		],
+		"description": "create object"
+	},
+	// array structure
+	"array structure": {
+		"prefix": "aa",
+		"body": [
+			"['$1',$2];$3",
+			"$4"
+		],
+		"description": "array structure"
+	},
+	// getElementById
+	"getElementById": {
+		"prefix": "did",
+		"body": [
+			"const $1 = document.getElementById('$2');$3"
+		],
+		"description": "getElementById"
+	},
+
 }
 
 ## vs code default and custome setting.json
-{ 
-    "editor.minimap.autohide": true, 
-    "editor.minimap.maxColumn": 70, 
-    "workbench.iconTheme": "material-icon-theme", 
-    "terminal.integrated.defaultProfile.windows": "PowerShell", 
-    "editor.bracketPairColorization.enabled": true, 
-    "editor.guides.bracketPairs": true,
-
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true, 
-    "files.autoSave": "afterDelay", 
-    "files.autoSaveDelay": 10, 
-    "editor.cursorBlinking": "phase", 
-    "editor.cursorSmoothCaretAnimation": "on", 
-    "terminal.integrated.env.windows": {}, 
-    "editor.fontFamily": "\"JetBrainsMonoNL Nerd Font\",\"JetBrains Mono\"", 
-    "editor.fontLigatures": true, 
-    "editor.fontSize": 17, 
-    "editor.smoothScrolling": true, 
-    "workbench.list.smoothScrolling": true, 
-    "liveServer.settings.CustomBrowser": "chrome", 
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true, 
-    "editor.defaultFormatter": "esbenp.prettier-vscode", 
-    "workbench.sideBar.location": "right", 
-    "window.customTitleBarVisibility": "windowed", 
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "\"jetbrains mono\",monospace, \"Times New Roman\",   JetBrainsMono Nerd Font Mono",
+    "powermode.enabled": true,
+    "powermode.combo.location": "off",
+    "powermode.shake.enabled": false,
+    "debug.console.fontSize": 16,
+    "scm.inputFontSize": 14,
+    "editor.fontWeight": "100",
+    "terminal.integrated.fontSize": 15,
+    "chat.editor.fontSize": 16,
+    "editor.linkedEditing": true,
+    "files.autoSaveDelay": 10,
+    "editor.minimap.autohide": true,
+    "editor.wordWrap": "on",
+    "editor.fontLigatures": true,
+    "background.editorBackgrounds": [
+        "e:/vscode bg/**"
+    ],
+    "background.backgroundOpacity": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+    ],
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 15px 30px",
+    "codesnap.containerPadding": "1em",
+    "codesnap.realLineNumbers": true,
+    "codesnap.showWindowTitle": true,
+    "background.backgroundChangeTime": [
+        0,
+        100,
+        0,
+        0
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+        "strings": "inline",
+        "comments": "on"
+    },
+    "git.autofetch": true,
+    "workbench.colorTheme": "Midnight Cloud - Peace of the eye",
     "workbench.activityBar.location": "top",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "editor.fontVariations": false,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.tabSize": 2,
+    "workbench.editor.tabSizingFixedMinWidth": 40,
+    "window.titleBarStyle": "custom",
+    "editor.fontWeight": "normal",
+    "editor.overtypeCursorStyle": "line",
+    "workbench.sideBar.location": "right",
+    "chat.commandCenter.enabled": false,
+    "files.autoSave": "afterDelay",
 
-    "workbench.colorCustomizations": { 
-        "activityBar.background": "#000000", 
-        "activityBar.border": "#006d5d", 
-        "activityBar.activeBorder": "#006d5d", 
-        "sideBar.background": "#0d121c", 
-        "sideBar.border": "#006d5d", 
-        "sideBarTitle.foreground": "#ff9acf", 
-        "sideBarTitle.background": "#010", 
-        "sideBarActivityBarTop.border": "#006d5d", 
-        "sideBarSectionHeader.border": "#006d5d", 
-        "editor.background": "#0D121C", 
-        "contrastBorder": "#006d5d", 
-        "dropdown.border": "#006d5d", 
-        "focusBorder": "#006d5d", 
-        "input.border": "#006d5d", 
-        "inputOption.activeBorder": "#006d5d", 
-        "inputValidation.errorBorder": "#006d5d", 
-        "inputValidation.infoBorder": "#006d5d", 
-        "inputValidation.warningBorder": "#006d5d", 
-        "list.inactiveSelectionBackground": "#00000030", 
-        "list.inactiveSelectionForeground": "#ffffff", 
-        "menu.background": "#0D121C", 
-        "menu.border": "#006d5d", 
-        "menu.selectionBackground": "#000000", 
-        "menu.selectionBorder": "#006d5d", 
-        "menubar.selectionBorder": "#006d5d", 
-        "minimap.background": "#440030", 
-        "minimapSlider.background": "#0d121cab", 
-        "notifications.background": "#000068", 
-        "notifications.foreground": "#ffffff", 
-        "panel.background": "#0d121c", 
-        "panel.border": "#006d5d", 
-        "panelTitle.activeBorder": "#006d5d", 
-        "panelTitle.activeForeground": "#fff", 
-        "progressBar.background": "#0d121c", 
-        "scrollbarSlider.activeBackground": "#006d5d", 
-        "scrollbarSlider.background": "#008772", 
-        "settings.checkboxForeground": "#ff4a4a", 
-        "statusBar.background": "#0D121C", 
-        "statusBar.border": "#006d5d", 
-        "tab.border": "#006d5d", 
-        "tab.activeBackground": "#006d5d", 
-        "tab.activeBorder": "#006d5d", 
-        "tab.activeForeground": "#ffffff", 
-        "tab.inactiveBackground": "#0d121c", 
-        "terminal.background": "#0d121c", 
-        "terminal.border": "#006d5d", 
-        "titleBar.activeBackground": "#0d121c", 
-        "titleBar.border": "#006d5d", 
-        "textLink.activeForeground": "#006d5d", 
-        "editorGroupHeader.tabsBorder": "#006d5d", 
-        "editorGroupHeader.tabsBackground": "#0d121c"
 
-}, 
-"workbench.colorTheme": "Learn with Sumit - Vintage", 
-"liveServer.settings.donotShowInfoMsg": true
 }
-
 
 ---
 
