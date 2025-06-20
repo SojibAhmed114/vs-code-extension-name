@@ -85,12 +85,9 @@
 ## vs code default and custome setting.json
 ``` json
 {
-     "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "jetbrains mono, Victor Mono, monospace,  JetBrainsMono Nerd Font Mono",
   "editor.fontWeight": "400",
-  "powermode.enabled": true,
-  "powermode.combo.location": "off",
-  "powermode.shake.enabled": false,
   "scm.inputFontSize": 14,
   "chat.editor.fontSize": 12,
   "editor.linkedEditing": true,
@@ -98,8 +95,6 @@
   "editor.minimap.autohide": true,
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
-  "background.editorBackgrounds": ["e:/vscode bg/vscodebg01.png"],
-  "background.backgroundOpacity": [0.1, 0.9, 0.1, 0.1],
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -107,7 +102,6 @@
   "codesnap.containerPadding": "1em",
   "codesnap.realLineNumbers": true,
   "codesnap.showWindowTitle": true,
-  "background.backgroundChangeTime": [0, 100, 0, 0],
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on"
@@ -124,23 +118,11 @@
   "window.titleBarStyle": "custom",
   "editor.overtypeCursorStyle": "line",
   "chat.commandCenter.enabled": false,
-  "background.useInvertedOpacity": true,
   "vscode_custom_css.imports": [
     "file:///G:/mythemes/customTheme/theme.css",
     "file:///c:/Users/sojib ahmed/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
-  "animations.Enabled": true,
-  "animations.CursorAnimation": true,
-  "animations.Durations": {
-    "Command-Palette": 800,
-    "Tabs": 800
-  },
-  "animations.CursorAnimationOptions": {
-    "Color": "#000080",
-    "TrailLength": 6
-  },
   "window.menuBarVisibility": "compact",
-  "animations.UseCursorColorForCursorAnimation": true,
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "notebook.formatOnSave.enabled": true,
@@ -149,14 +131,13 @@
   "files.autoSave": "afterDelay",
   "editor.guides.bracketPairs": "active",
   "workbench.list.smoothScrolling": true,
-  "background.smoothImageRendering": true,
   "editor.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "explorer.confirmDragAndDrop": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "editor.autoClosingBrackets": "always",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "animations.Default-Duration": 500,
+
   "explorer.confirmDelete": false,
   "editor.lineHeight": 1.7,
   "editor.fontSize": 17,
@@ -164,23 +145,37 @@
   "debug.console.fontSize": 12,
   "markdown.preview.fontSize": 12,
   "tailwindCSS.rootFontSize": 12,
-  "RainbowBrackets.depreciation-notice": false,
   "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "One Dark Night - Peace of the eye",
+  "workbench.colorTheme": "One Dark Night - Eye Care",
 
-  //es lint and prettier settings
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+
+
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.validate.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.tslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "eslint.run": "onSave",
+  "eslint.alwaysShowStatus": true,
+
+  "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.run": "onSave",
   "path-autocomplete.extensionOnImport": true,
   "path-autocomplete.excludedItems": {
     "*/.js": {
@@ -190,11 +185,12 @@
       "when": "**"
     }
   },
-  "javascript.validate.enable": false,
-  "typescript.validate.enable": false
-
-
+  "typescript.validate.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
+
 ```
 
 ---
